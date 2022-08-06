@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7799ac541c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Bebas+Neue&family=Nova+Flat&family=Roboto+Slab:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="add_more_service.css" />
+    <title>Add More Service</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <b>SamplePro</b>
+      </div>
+      <div id="nav">
+        <div>
+          <span class="one">1</span>
+          <span id="order_details">Order Details</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div>
+          <span class="one">2</span>
+          <span id="Confirm_&_Pay">Confirm & Pay</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div>
+          <span class="one">3</span>
+          <span id="Submit_Requirements">Submit Requirements</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </header>
+    <hr />
+
+    <section id="mid">
+      <!-- mid_left  -->
+
+      <div id="mid_left">
+        <div id="great_choice">
+          <i class="fa-solid fa-trophy"></i>
+          <b>Great Choice!</b>
+          <span>This seller has an exceptional number of repeat buyers.</span>
+        </div>
+
+        <div>
+          <h1>Upgrade your order with extras</h1>
+        </div>
+
+        <section class="fast_delivary">
+          <div>
+            <strong>Extra Fast 2 Days Delivery</strong>
+          </div>
+          <div>
+            <strong>$ <strong id="fast_delivary_price">100</strong></strong>
+            <button id="fast_delivary" class="i_btn">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <button id="no_fast_delivary" class="i_btn">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+          </div>
+        </section>
+
+        <section class="add_some">
+          <div class="one_line_add_some">
+            <div>
+              <strong>1 additional page</strong>
+            </div>
+            <div>
+              <strong>$<strong id="additional_price">150</strong></strong>
+              <button id="additional" class="i_btn">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+              <button id="no_additional" class="i_btn">
+                <i class="fa-solid fa-minus"></i>
+              </button>
+            </div>
+          </div>
+          <section class="text">
+            <span>
+              Add additional pages or screens if you need more than what's
+              included in the package.
+            </span>
+          </section>
+        </section>
+
+        <section class="add_some">
+          <div class="one_line_add_some">
+            <div>
+              <strong>Premium quality image</strong>
+            </div>
+            <div>
+              <strong>$<strong id="image_price">10</strong></strong>
+              <button id="add_img" class="i_btn">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+              <button id="no_add_img" class="i_btn">
+                <i class="fa-solid fa-minus"></i>
+              </button>
+            </div>
+          </div>
+          <section class="text">
+            <span>
+              Enhance your order with professional stock photos. Images are
+              selected by sellers, exclusively from Getty Images®.
+            </span>
+          </section>
+        </section>
+
+        <section class="add_some">
+          <div class="one_line_add_some">
+            <div>
+              <strong>Convert To Html,css ( +3 days )</strong>
+            </div>
+            <div>
+              <strong>$<strong id="convert_price">100</strong></strong>
+              <button id="convert" class="i_btn">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+              <button id="no_convert" class="i_btn">
+                <i class="fa-solid fa-minus"></i>
+              </button>
+            </div>
+          </div>
+          <section class="text">
+            <span>
+              I will convert Design into Responsive HTML/CSS for 1 page
+            </span>
+          </section>
+        </section>
+      </div>
+
+      <!-- mid_right -->
+      <div id="mid_right">
+        <section id="price_summery">
+          <h1>Price Summery</h1>
+
+          <div class="price">
+            <div>
+              <b>Subtotal</b>
+            </div>
+            <div><b>$</b><b id="subtotal">400</b></div>
+          </div>
+
+          <div class="price">
+            <div>
+              <b>Fast Delivery</b>
+            </div>
+            <div><b>$</b><b id="Fast_Delivery">0</b></div>
+          </div>
+
+          <div class="price">
+            <div>
+              <b>Additional page</b>
+            </div>
+            <div><b>$</b><b id="additional_page">0</b></div>
+          </div>
+
+          <div class="price">
+            <div>
+              <b>Premium image</b>
+            </div>
+            <div><b>$</b><b id="Premium_image">0</b></div>
+          </div>
+
+          <div class="price">
+            <div>
+              <b>Convert To Html,css</b>
+            </div>
+            <div><b>$</b><b id="Convert_html">0</b></div>
+          </div>
+
+          <div class="price">
+            <div>
+              <b>Service Fee</b>
+            </div>
+            <div>
+              <b>$<b id="service_fee">8.25</b></b>
+            </div>
+          </div>
+
+          <hr />
+          <br />
+          <div class="price">
+            <div>
+              <strong>Total</strong>
+            </div>
+            <div>
+              <strong>$<strong id="total_price">408.25</strong></strong>
+            </div>
+          </div>
+
+          <div class="price">
+            <div>
+              <b>Dalevary Time</b>
+            </div>
+            <div>
+              <b>4 Days </b>
+            </div>
+          </div>
+        </section>
+        <a href="chackout.html">
+          <button id="chackout">Continue To Chackout</button></a
+        >
+      </div>
+    </section>
+
+    <script src="/js/add_more_service.js"></script>
+  </body>
+</html>

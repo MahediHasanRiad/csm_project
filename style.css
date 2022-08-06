@@ -1,5 +1,6 @@
 body {
   width: 100%;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   margin: 0px;
@@ -22,6 +23,7 @@ hr {
 }
 
 #nav {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -48,7 +50,8 @@ hr {
 #nav-2 {
   display: flex;
   justify-content: space-between;
-  height: 445px;
+  box-sizing: border-box;
+  height: 503px;
   color: white;
   background-color: #013f1d;
   padding: 25px;
@@ -71,12 +74,13 @@ hr {
   width: 50%;
 }
 #nav2-right img {
-  width: 59%;
+  width: 60%;
   margin-left: 100px;
   overflow: hidden;
 }
 #title-1 {
   margin: 50px;
+  box-sizing: border-box;
 }
 #t1 {
   text-align: center;
@@ -90,6 +94,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 100px;
+  box-sizing: border-box;
 }
 #section-1 h1 {
   margin-left: 25px;
@@ -110,6 +115,7 @@ b {
 #article-1 {
   width: 100%;
   background-color: #f1fdf7;
+  box-sizing: border-box;
   /* padding: 50px; */
   display: flex;
 }
@@ -127,6 +133,7 @@ b {
 #marketPlace {
   margin: 80px 0px 80px 0px;
   padding: 50px;
+  box-sizing: border-box;
 }
 #marketPlace_details {
   display: grid;
@@ -146,6 +153,7 @@ hr:hover {
 }
 #business_solution {
   width: 100%;
+  box-sizing: border-box;
   background-color: #0d084d;
   color: white;
   display: flex;
@@ -169,6 +177,7 @@ hr:hover {
 }
 #fiverr_help {
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   margin: 70px 0px 70px 0px;
 }
@@ -193,6 +202,7 @@ hr:hover {
   padding: 25px 25px 25px 45px;
   margin-top: 40px;
   margin-bottom: 40px;
+  box-sizing: border-box;
 }
 #fiverr_logo_maker button {
   padding: 20px;
@@ -211,6 +221,7 @@ hr:hover {
 #pro_by_freelancer {
   /* background-color: #ebe0e0; */
   padding-top: 70px;
+  box-sizing: border-box;
 }
 #project_by_freelancer {
   width: 100%;
@@ -218,6 +229,7 @@ hr:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 25px 0px 0px 25px;
+  box-sizing: border-box;
 }
 .project_by_freelancer_div {
   width: 80%;
@@ -229,6 +241,7 @@ hr:hover {
   width: 100%;
   height: 442px;
   margin: 100px 0px 100px 0px;
+  box-sizing: border-box;
   background-image: url(img/image.webp);
 }
 #find_lalent_div {
@@ -256,9 +269,37 @@ hr:hover {
   margin: 0px;
 }
 #footer {
-  width: 98%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding-left: 30px;
   background-color: #013f1d71;
+  box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    box-sizing: border-box;
+    display: none;
+  }
+  #logo {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+}
+hr {
+  border-color: rgba(128, 128, 128, 0.144);
+}
+strong,
+h1 {
+  color: black;
+}
+header {
+  display: flex;
+  padding: 12px;
+  margin: 20px;
+}
+#nav {
+  display: flex;
+}
+#nav div {
+  margin-left: 20px;
+  color: gray;
+}
+#logo {
+  width: 15%;
+  font-size: 24px;
+}
+.one {
+  padding: 8px;
+  border-radius: 60%;
+  background-color: #02c2a9;
+}
+#order_details {
+  color: #21d8c0;
+  margin-right: 5px;
+}
+#mid {
+  box-sizing: border-box;
+  margin: 25px;
+  display: flex;
+}
+#mid_left {
+  width: 60%;
+  margin: 20px;
+}
+#great_choice {
+  margin: 25px 0px;
+}
+h1 {
+  margin-bottom: 25px;
+}
+.fast_delivary {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.i_btn {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.add_some {
+  padding: 25px;
+  width: 100%;
+}
+.one_line_add_some {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.text {
+  padding: 10px 0px;
+  width: 66%;
+}
+#mid_right {
+  width: 25%;
+  height: 30%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 25px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+#chackout {
+  width: 100%;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.884);
+  color: white;
+  margin-top: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+#chackout:hover {
+  background-color: gray;
+}

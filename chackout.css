@@ -10,7 +10,31 @@ body {
   padding: 8px;
   margin: 80px 0px;
 }
+header {
+  display: flex;
+  padding: 12px;
+  margin: 20px;
+}
 #nav {
+  display: flex;
+}
+#nav div {
+  margin-left: 20px;
+  color: gray;
+}
+#logo {
+  width: 15%;
+  font-size: 24px;
+}
+.one {
+  padding: 8px;
+  border-radius: 60%;
+  background-color: #02c2a9;
+}
+#Confirm_Pay {
+  color: #02c2a9;
+}
+/* #nav {
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -33,7 +57,7 @@ body {
 }
 #manu ul li a:hover {
   color: rgba(185, 186, 196, 0.76) !important;
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -123,13 +147,13 @@ span.price {
   color: grey;
 }
 
-#footer {
+/* #footer {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding-left: 30px;
   background-color: #013f1d71;
-}
+} */
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
 @media (max-width: 800px) {
